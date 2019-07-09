@@ -64,7 +64,7 @@ void addNew(Database& db)
 	cin >> lastName;
 	cout << "Address and Phone Number? ";
 	cin >> passengerInfo;
-	cout << "SSN? (No Spaces) ";
+	cout << "Passenger ID ";
 	cin >> passengerId;
 
 	db.addPassenger(firstName, lastName, passengerInfo, passengerId);
