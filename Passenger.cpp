@@ -72,6 +72,6 @@ namespace HawkinsAirlineReservation {
 		cout << endl;
 		cout << "Passenger Name: " << getFirstName() << " " << getLastName() << endl;
 		cout << "Passenger Address and Phone Number: " << getPassengerInfo() << endl;
-		cout << "Passenger SSN (no spaces): " << getPassengerId() << endl;
+		cout << "Passenger ID " << getPassengerId() << endl;
 	}
 }
